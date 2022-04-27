@@ -1,0 +1,33 @@
+#header-img{
+    width: 40%;
+    height: auto;
+    margin-top: 18px;
+}
+#nav-bar{
+    padding: 15px;
+    display: flex;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    
+}
+button{
+    margin: auto;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    background-color: yellow;
+    font-weight: bold;
+}
+.center{
+    text-align: center !important;
+}
+@media screen and (max-width:991px) {
+    #nav-bar{
+        display: none;
+    }
+    
+}
